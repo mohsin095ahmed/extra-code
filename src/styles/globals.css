@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.first {
+    animation: get 1s linear 1;
+    animation-delay: 2s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+
+}
+@keyframes get{
+    0%{
+        transform: translateY(-50px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0px);
+        visibility: visible;
+    }
+}
+
+.sec {
+    animation: bet 1s linear 1;
+    animation-delay: 3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+
+}
+@keyframes bet{
+    0%{
+        transform: translateX(50px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0px);
+        visibility: visible;
+    }
+}
+
+.third {
+    animation: third 1s linear 1;
+    animation-delay: 2s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+
+}
+@keyframes third{
+    0%{
+        transform: translateX(-50px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0px);
+        visibility: visible;
+    }
+}
+
+.four {
+    animation: four 1s linear 1;
+    animation-delay: 4s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+
+}
+@keyframes four{
+    0%{
+        transform: scale(0.5);
+        visibility: visible;
+    }
+    100%{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+.center{
+    margin: 50px 30px;
+    
+    
+    width: 600px;
+}
+.border{
+    border: solid black 1px;
+}
+.flext{
+    flex-wrap: nowrap;
+}
